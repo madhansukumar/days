@@ -7,13 +7,13 @@ public class number
     Scanner s=new Scanner(System.in);
     int a;
     a=s.nextInt();
-    if(a>0)
-    {
-      System.out.print("positive number");
-    }
-    else if(a==0)
+    if(a==0)
     {
       System.out.print("zero");
+    }
+    else if(a>0)
+    {
+      System.out.print("positive");
     }
     else
     {
